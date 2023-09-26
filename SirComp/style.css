@@ -1,0 +1,134 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos gerais */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Seções */
+.hero {
+    background-color: #b8b8bccc;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.dark-section {
+    background-color: #111;
+    color: #fff;
+    padding: 100px 0;
+}
+
+/* Estilos para títulos e parágrafos */
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+/* Links */
+a {
+    color: #4d4e4e13;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4d4e4e13;
+}
+
+/* Estilos para o carrossel de imagens */
+.image-carousel {
+    margin: 20px 0;
+}
+
+.image-carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* -------------------------------------------------------*/
+/* Estilizando a div contact-info */
+.contact-info {
+    text-align: right;
+}
+
+/* Estilizando o parágrafo dentro de contact-info */
+.contact-info p {
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    margin-right: 200px; /* espaço margem direita */
+}
+
+/* Estilizando o botão do WhatsApp */
+.whatsapp-button {
+    background-color: #25d366; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s; /* Transição de cor ao passar o mouse */
+    margin-right: 200px;
+}
+
+/* Estilizando o botão do WhatsApp quando o mouse passa por cima */
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Cor de destaque ao passar o mouse */
+}
+
+.contact-info{
+    background-color: #41434161;
+    border-radius: 10px; /* Borda arredondada para o quadrado */
+    padding: 10px; /* Espaçamento interno para afastar o conteúdo das bordas */
+    width: 500px; /* Largura desejada */
+    height: 100px; /* Altura desejada */
+    margin-left: 700px;
+}
+
+
+
